@@ -1,24 +1,9 @@
 # edu-boss-fed
 
-## Project setup
-```
-yarn install
-```
+## 拉勾大前端 3-6 项目
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 技术栈
+- Vue 2.x
+- TypeScript
+- Standard 风格
+- ElementUI
