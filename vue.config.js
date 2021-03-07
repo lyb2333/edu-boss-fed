@@ -12,6 +12,16 @@ module.exports = {
     }
   },
   devServer: {
-    open: true
+    open: true,
+    proxy: {
+      '/boss': {
+        target: 'http://eduboss.lagou.com',
+        changeOrigin: true
+      },
+      '/front': {
+        target: 'http://edufront.lagou.com',
+        changeOrigin: true
+      }
+    }
   }
 }
