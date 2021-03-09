@@ -13,6 +13,7 @@ module.exports = {
   },
   devServer: {
     open: true,
+    port: 8008,
     proxy: {
       '/boss': {
         target: 'http://eduboss.lagou.com',
